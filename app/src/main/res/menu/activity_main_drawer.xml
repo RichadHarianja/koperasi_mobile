@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_nav_home"
+            android:icon="@drawable/navbar_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/item_nav_angsuran"
+            android:icon="@drawable/navbar_angsuran"
+            android:title="@string/menu_angsuran" />
+        <item
+            android:id="@+id/item_nav_pinjaman"
+            android:icon="@drawable/navbar_pinjaman"
+            android:title="@string/menu_pinjaman" />
+        <item
+            android:id="@+id/item_nav_simpanan"
+            android:icon="@drawable/navbar_simpanan"
+            android:title="@string/menu_simpanan" />
+        <item
+            android:id="@+id/item_nav_setting"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/menu_setting" />
+    </group>
+</menu>

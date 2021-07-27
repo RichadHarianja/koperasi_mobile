@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/chathura_thin</item>
+        <item>@font/cousine</item>
+        <item>@font/francois_one</item>
+        <item>@font/iceland</item>
+        <item>@font/medula_one</item>
+    </array>
+</resources>

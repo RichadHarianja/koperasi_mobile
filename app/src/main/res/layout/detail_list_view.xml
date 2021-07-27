@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detailListView">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBack"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textViewDetailListViewTitle"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="Detail Tagihan" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView1"
+        android:layout_below="@+id/textViewDetailListViewTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Angsuran" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListView1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Tanggal Bayar" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView3"
+        android:layout_below="@+id/textViewDetailListView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Periode Angsuran" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView4"
+        android:layout_below="@+id/textViewDetailListView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Sisa" />
+
+
+    <TextView
+        android:id="@+id/textViewDetailListView5"
+        android:layout_below="@+id/textViewDetailListView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Denda" />
+
+    <TextView
+        android:id="@+id/textViewDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListViewTitle"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/textViewDot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDot"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/textViewDot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDot1"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/textViewDot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDot2"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/textViewDot4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDot3"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListViewTitle"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListView6"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListView7"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListView8"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDetailListView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDetailListView9"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/activity_bottom_navigation" />
+
+</RelativeLayout>
